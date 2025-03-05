@@ -4,7 +4,7 @@ import fs from 'fs';
 const app = express();
 const PORT = 3000;
 const packagelist_url = 'https://packages.lazarus-ide.org/packagelist.json';
-const filename = 'packagelist.json';
+const filename = 'public/packagelist.json';
 const currentFolder = process.cwd();
 
 if (!fs.existsSync(filename)) {
@@ -30,7 +30,7 @@ app.get('/', (req, res) => {
         <br>
         http://localhost:${PORT}
         <br>
-        Download files and save to:
+        Download files from <a href="https://packages.lazarus-ide.org" target="_blank">https://packages.lazarus-ide.org</a> and save to:
         <br>
         ${currentFolder}/public
     `);
