@@ -1,0 +1,24 @@
+{
+  "name": "packages-lazarus-ide",
+  "version": "1.0.0",
+  "description": "Local Lazarus Packages Server in Node.js",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marceloxp/packages-lazarus-ide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marceloxp/packages-lazarus-ide/issues"
+  },
+  "homepage": "https://github.com/marceloxp/packages-lazarus-ide#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
